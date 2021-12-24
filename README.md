@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ABOUT THE PROJECT -->
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+[![Product Name Screen Shot][product-screenshot]](https://tickez.netlify.app)
 
-### `npm start`
+Super2Do App adalah aplikasi untuk membuat daftar segala sesuatu yang harus kita lakukan, kita bisa memberikan tanda pada tugas yang sudah selesai dengan mudah.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Website Front End ini dibangun dengan Teknologi Berikut
 
-### `npm test`
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=id)
+- [CSS](https://developer.mozilla.org/id/docs/Web/CSS)
+- [React](https://reactjs.org/)
+- [Laravel](https://laravel.com/docs/8.x/migrations/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone Atau Download Repo ini
+   ```sh
+   git clone https://github.com/HariisV/Gamatechno-Backend.git
+   ```
+2. Buka file
+  ```
+  src/utils/axios.js
+  ```
+3.Ganti baseURL Menjadi Link backend kamu
+```
+const axiosApiInterface = axios.create({
+  baseURL: "http://127.0.0.1:8000/", => Ganti Ke Url Kamu jangan lupa ditutup dengan /(slash)
+});
+```
+4. Buka cmd, jalankan :
+  ```
+  npm install
+  npm run dev
+  ```
+5. Setelah Itu browser akan otomatis membuka website kamu !
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ROADMAP -->
+### How To Deploy 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Netlify](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+- [Vercel](https://vercel.com/guides/deploying-react-with-vercel-cra)
+- [VPS](https://medium.com/swlh/react-app-deployment-to-vps-cloud-server-2de4387f59f4)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Demo Project
+- [Video](https://www.awesomescreenshot.com/video/6587930?key=d0110832973e8349112bed2a18360e6b)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Roadmap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Create Task
+- [x] Delete Task
+- [x] Update Task
+- [x] Filter By Status (All,Completed,active)
+- [x] Update All active To Completed
+- [x] Delete All Completed Task 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Distributed under the MIT License.
 
-## Learn More
+<!-- CONTACT -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot]: https://i.postimg.cc/L6NT55hG/Screenshot-3.png
